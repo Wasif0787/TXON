@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #e2eeee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6769ae;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    align-items: center;
+}
+
+header {
+    padding: 40px;
+    background-color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.bottom-container {
+    background-color: #242727;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.btn {
+    background: #807474;
+    background-image: -webkit-linear-gradient(top, #807474, #474c4f);
+    background-image: -moz-linear-gradient(top, #807474, #474c4f);
+    background-image: -ms-linear-gradient(top, #807474, #474c4f);
+    background-image: -o-linear-gradient(top, #807474, #474c4f);
+    background-image: linear-gradient(to bottom, #807474, #474c4f);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #576c7a;
+    background-image: -webkit-linear-gradient(top, #576c7a, #889ead);
+    background-image: -moz-linear-gradient(top, #576c7a, #889ead);
+    background-image: -ms-linear-gradient(top, #576c7a, #889ead);
+    background-image: -o-linear-gradient(top, #576c7a, #889ead);
+    background-image: linear-gradient(to bottom, #576c7a, #889ead);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.image {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+}
+
+.jiggle {
+    font-size: 40px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 300px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.middle-container .title {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 18.3%;
+}
+
+.middle-container .title h1 {
+    font-size: 57px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.order {
+    font-size: 40px;
+    color: #686868;
+}
+
+.welcome {
+    text-align: center;
+}
