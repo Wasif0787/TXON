@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/88607.jpg");
+    background-size: auto;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size:large;
+    font-weight: bold;
+    border: 3px solid black;
+    background-color: #ff9999;
+}
+.box{
+    margin: 3px 10px;
+    padding: 5px 5px;
+    background-image: url("images/944466.jpg");
+    background-size: 300px;
+    width: 300px;
+    height: 430px;
+    border: 5px solid black;
+    border-radius: 1em;
+}
+.row {
+    margin: 8px 0;
+}
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.text-center {
+    text-align: center;
+    margin: 20px 500px 20px 500px;
+    background-image: url("images/240_F_229121900_Vv9caQHTPJegUr8ErPdBDLEg57EysRiD.jpg");
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+}
+
+.mx-auto {
+    margin: auto;
+    background-image: url("images/spiderman.jpg");
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
